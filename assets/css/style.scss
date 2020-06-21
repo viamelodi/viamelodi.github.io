@@ -1,0 +1,31 @@
+---
+sitemap: false
+---
+
+
+/*
+  Common Variables
+
+  Feel free to change!
+*/
+
+/* Fonts */
+$main-font: "Noto Serif KR", "Noto Serif CJK kr", Palatino, serif;
+$heading-font: "Gothic A1", "Nanum Gothic", sans-serif;
+$regular-font-size: 1.2em; /* 20px / 16px = 1.25em; support text resizing in all browsers */
+
+
+/*
+  Color
+
+  Make sure to leave color-scheme in `_config.yml` file empty for granular control
+*/
+
+$text-color: #232323;
+$heading-color: #232323;
+$link-color: #232323;
+
+@import "ed";
+@import "syntax";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:500')
