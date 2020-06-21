@@ -97,7 +97,7 @@ body {
 }
 
 /* Links */
-a, .text-title a {
+a {
   color: $link-color;
   text-decoration: none;
 }
@@ -105,6 +105,15 @@ a, .text-title a {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
+  color: $text-color;
+}
+
+.masthead-title a {
+  color: $text-color;
+  border-bottom: 0;
+}
+.masthead-title a:hover, .masthead-title a:focus {
+  color: $text-color;
   text-decoration: underline;
 }
 
@@ -309,12 +318,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .sidebar a {
-  color: #777;
-  text-decoration: none;
+  color: $link-color;
+  border-bottom: 0;
 }
 
 .sidebar a:hover {
-  color: $link-color;
+  color: $text-color;
 }
 
 .sidebar-item {
