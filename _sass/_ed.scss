@@ -108,15 +108,6 @@ a:focus {
   color: $text-color;
 }
 
-.masthead-title a {
-  color: $text-color;
-  border-bottom: 0;
-}
-.masthead-title a:hover, .masthead-title a:focus {
-  color: $text-color;
-  text-decoration: underline;
-}
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
@@ -251,6 +242,15 @@ tbody tr:nth-child(odd) th {
   margin-right: 0;
   margin-left: 0;
   text-align: center;
+}
+
+.masthead-title a {
+  color: $text-color;
+  border-bottom: 0;
+}
+.masthead-title a:hover, .masthead-title a:focus {
+  color: $text-color;
+  text-decoration: underline;
 }
 
 .masthead-title small {
