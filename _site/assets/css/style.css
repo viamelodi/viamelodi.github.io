@@ -45,14 +45,14 @@ body {
   overflow-x: hidden; }
 
 html {
-  font-family: "Noto Serif KR", "Noto Serif CJK kr", Palatino, serif;
-  font-size: 1.1em;
+  font-family: "Noto Serif KR", "Noto Serif CJK KR", Palatino, serif;
+  font-size: 1em;
   /* 16px; specify in ems to support text resizing in all browsers */
   line-height: 1.7; }
 
 @media (min-width: 38em) {
   html {
-    font-size: 1.2em; } }
+    font-size: 1.15em; } }
 body {
   color: #232323;
   background-color: #fff;
@@ -102,14 +102,6 @@ a {
 a:hover,
 a:focus {
   color: #232323; }
-
-.masthead-title a {
-  color: #232323;
-  border-bottom: 0; }
-
-.masthead-title a:hover, .masthead-title a:focus {
-  color: #232323;
-  text-decoration: underline; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -214,7 +206,7 @@ tbody tr:nth-child(odd) th {
 
 .masthead-title {
   color: #505050;
-  font-family: "Noto Serif KR", "Noto Serif CJK kr", Palatino, serif;
+  font-family: "Noto Serif KR", "Noto Serif CJK KR", Palatino, serif;
   font-size: 1.8rem;
   line-height: .777em;
   margin-top: 2em;
@@ -222,6 +214,14 @@ tbody tr:nth-child(odd) th {
   margin-right: 0;
   margin-left: 0;
   text-align: center; }
+
+.masthead-title a {
+  color: #232323;
+  border-bottom: 0; }
+
+.masthead-title a:hover, .masthead-title a:focus {
+  color: #232323;
+  text-decoration: underline; }
 
 .masthead-title small {
   color: #232323;
