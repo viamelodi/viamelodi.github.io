@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: 우리의 밤, 거리
+title: 우리의 밤 거리
 author: 선율
 rights: All Rights Reserved
 publication-date: 2019
