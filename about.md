@@ -7,4 +7,4 @@ title: 소개
 
 ## 연락처
 
-[이메일](mailto:sunyool@hotmail.com) / [트위터](http://twitter.com/sunyoool) / [인스타그램](http://instagram.com/sunyoool)
+[이메일](mailto:sunyool@hotmail.com)
